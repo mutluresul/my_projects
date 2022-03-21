@@ -14,7 +14,7 @@ def second():
 def third():
     return "This is the subpath of third path"
 
-@app.route("/forth/<string:id>")
+@app.route("/forth/<string:id>") #string e atama 
 def forth(id):
     return f'Id of this page is {id}'
 
